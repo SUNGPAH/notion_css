@@ -1,0 +1,199 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+ul{
+
+  padding-inline-start: 24px;
+
+}
+
+div{
+  font-size:16px;
+}
+
+span{
+  font-size:16px;
+}
+
+.flex{
+  display:flex;
+}
+
+.f1{
+  flex:1;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb{
+  justify-content: space-between;
+}
+
+.jcfe{
+  justify-content: flex-end;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.bg_gray{
+  background-color:rgba(247,246,243);
+}
+
+.bg_red{
+  background-color:red;
+}
+
+.bg_blue{
+  background-color:blue;
+}
+
+.vw100{
+  width:100vw;
+}
+
+.vh100{
+  height:100vh;
+}
+
+.w100p{
+  width:100%;
+}
+
+.h100p{
+  height:100%;
+}
+
+.logo{
+  width:28px;
+  height:28px;
+}
+
+.bold{
+  font-weight:600;
+}
+
+.h1{
+  font-size:48px;
+}
+
+.menu_row{
+  position:relative;
+  font-size:14px;
+  min-height:28px;
+  padding-left:14px;
+  padding-right:14px;
+  padding-top:2px;
+  padding-bottom:2px;
+  color:rgba(55,53,47,1);
+  align-items: center;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  cursor:pointer;
+}
+
+.menu_row:hover{
+  background-color:rgba(55,53,47,0.08);
+
+}
+
+.red_box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:4px;
+  font-size:12px;
+  width:16px; height:16px;
+  color:white;
+  background-color: rgba(235,87,87);
+}
+
+.posRel{
+  position:relative;
+
+}
+.posRight{
+  position:absolute; right:6px; top:6px;
+}
+
+.posFx{
+  position:fixed;
+}
+
+.floatPath{
+  z-index:2;
+  background-color:white;
+  position:fixed;
+  height:48px;
+  display:flex;
+  align-items: center;
+  padding-left:24px;
+}
+
+.color_black{
+  color:rgba(55,53,47,0);
+}
+
+
+.code_card{
+  display:flex;
+  background-color: rgb(247,246,243);
+  flex-grow: 1;
+  border-radius:8px;
+  padding-top:32px;
+  padding-left:32px;
+  padding-right:16px;
+  padding-bottom:32px;
+}
+
+.paragraph{
+  margin-top:16px;
+  line-height:1.5;
+  padding-left:4px;
+  padding-right:4px;
+}
+
+.mt-1{
+  margin-top:4px;
+}
+.mt-2{
+  margin-top:8px;
+}
+.mt-3{
+  margin-top:16px;
+}
+
+.mt-4{
+  margin-top:32px;
+}
+
+.pr-1{
+  padding-right:4px;
+}
+
+.pr-2{
+  padding-right:8px;
+}
+
+.config_icon{
+  padding-left:8px;
+  padding-right:8px;
+}
